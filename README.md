@@ -5,12 +5,12 @@ Information seeking_SEEG study led by Keyu
 
 ### 简介 / Introduction
 
-本项目探索人类前额叶皮层（尤其是vmPFC和ACC）在动态调节奖励和信息价值中的神经机制。通过结合计算模型、腔内电生理（SEEG）数据和网络分析，本研究揭示了大脑在探索-利用权衡过程中的不同神经编码和连接状态的切换。这些结果为理解人类灵活决策提供了神经基础和机制解释。
+本项目探索人类前额叶皮层（尤其是vmPFC和ACC）在动态调节奖励和信息价值中的神经机制。通过结合计算模型、颅内电生理（SEEG）数据和网络分析，本研究揭示了大脑在探索-利用权衡过程中的不同价值的神经编码和连接状态的切换。这些结果为理解人类灵活决策提供了神经基础和机制解释。
 
-**Research highlights include**
-- 识别前额叶不同区域对奖励和信息价值的不同编码方式
-- Theta频段的长程同步与价值整合的关系
-- 负责任的局部及区域间的环路动态调控探究
+**Research highlights **
+- 
+- 
+- 
 
 ### 文件结构 / Folder Structure
 
@@ -35,7 +35,7 @@ Information seeking_SEEG study led by Keyu
 
 - **Code and scripts** are designed to reproduce key analyses such as neural encoding, connectivity measures, and modeling.
 - **Data** files (when available) are for internal use; user-specific data should be preprocessed accordingly.
-- For questions, bug reports, or collaboration requests, please contact us at `keyuhu@um.edu.mo`or`haiyanwu@um.edu.mo`.
+- For questions, bug reports, or collaboration requests, please contact us at Hu Keyu <yc27383@connect.um.edu.mo> or`haiyanwu@um.edu.mo`.
 
 About / 关于
 
