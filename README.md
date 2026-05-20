@@ -1,35 +1,30 @@
-# info_sEEG
-Information seeking_SEEG study led by Keyu
+# TPP_sEEG
 
+> From [Affective, Neuroscience, and Decision-making Lab](https://andlab-um.com)
 
-
-### 简介 / Introduction
-
-本项目探索人类前额叶皮层（尤其是vmPFC和ACC）在动态调节奖励和信息价值中的神经机制。通过结合计算模型、颅内电生理（SEEG）数据和网络分析，本研究揭示了大脑在探索-利用权衡过程中的不同价值的神经编码和连接状态的切换。这些结果为理解人类灵活决策提供了神经基础和机制解释。
+## Abstracts
+Adaptive decision-making requires integrating reward expectations with information about uncertain options, yet how human prefrontal circuits link belief updating to value-based choice remains unclear. Using intracranial stereoelectroencephalography (SEEG) recordings from vmPFC and ACC in participants performing an explore--exploit task with dissociated reward expectation from sampling-history-dependent information status, we find a clear functional dissociation between the two regions that holds across both learning and choice. 
+During choice, vmPFC tracked composite subjective value and carried dissociable reward- and information-related signals, whereas ACC beta activity preferentially reflected information status. Signed beta band ACC--vmPFC phase-slope coupling was modulated by information before choice, indicating temporally ordered prefrontal coordination. 
+During learning, ACC population states were organized by evolving belief structure, including belief reconfiguration and alignment with residual uncertainty. 
+These findings identify a dynamic prefrontal mechanism linking ACC belief-state monitoring with vmPFC value integration during human exploration.
 
 **Research highlights **
-- 
-- 
-- 
+- During choice, vmPFC broadband gamma activity encoded integrated subjective value together with separable reward- and information-related components, whereas ACC beta activity was preferentially sensitive to information status. 
+- Beta-band phase-slope analyses revealed an ACC-leading ACC--vmPFC interaction before choice, which suggests a prefrontal coordination rather than independent local coding alone. 
+- During the preceding learning phase, ACC population states were preferentially organized by the evolving information structure of the task, including midpoint belief reconfiguration and later, weaker alignment with residual uncertainty. 
 
-### 文件结构 / Folder Structure
+### Folder Structure
 
 ```plaintext
-/ --> 代码仓库根目录
+/ --> code outline
 │
-├── data/                # 样本数据（如有存档，非原始患者隐私数据）
+├── sample data/
 │
-├── analysis/            # 主要分析脚本和流程
-│   ├── models/          # 计算模型（gkRL等）实现
-│   ├── sEEG/          # SEEG信号处理与分析脚本
-│   ├── connectivity/    # 网络连接与频段分析（PLV, PSI等）
-│   └── visualization/   # 图表和结果可视化脚本
-│
-├── results/             # 输出的分析结果和图像
-│
-├── docs/                # 研究相关文档、方法说明、依赖说明
-│
-└── README.md            # 本说明文件
+├── analysis/            
+│   ├── behaviral/          
+│   ├── neural/          
+│    
+└── README.md          
 
 ### How to Use
 
@@ -37,14 +32,12 @@ Information seeking_SEEG study led by Keyu
 - **Data** files (when available) are for internal use; user-specific data should be preprocessed accordingly.
 - For questions, bug reports, or collaboration requests, please contact us at Hu Keyu <yc27383@connect.um.edu.mo> or`haiyanwu@um.edu.mo`.
 
-About / 关于
+About 
 
 This repository contains code and analysis scripts for the study of neural mechanisms underlying flexible reward and information processing in human prefrontal circuits.
-本仓库收录了支持本研究的核心代码和分析流程，可作补充和方法复现。
 
-License / 使用协议
+License 
 
 此研究由 ANDlab完成，截图和数据（限非敏感部分）可用于学术交流与再研究。敬请注明出处。
 
 **Thank you for your interest!**
-感谢您的关注！
