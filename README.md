@@ -1,4 +1,4 @@
-# TPP_sEEG
+# Prefrontal coordination of belief monitoring and value integration in human exploration
 
 > From [Affective, Neuroscience, and Decision-making Lab](https://andlab-um.com)
 
@@ -13,31 +13,12 @@ These findings identify a dynamic prefrontal mechanism linking ACC belief-state 
 - Beta-band phase-slope analyses revealed an ACC-leading ACC--vmPFC interaction before choice, which suggests a prefrontal coordination rather than independent local coding alone. 
 - During the preceding learning phase, ACC population states were preferentially organized by the evolving information structure of the task, including midpoint belief reconfiguration and later, weaker alignment with residual uncertainty. 
 
-### Folder Structure
-
-```plaintext
-/ --> code outline
-│
-├── sample data/
-│
-├── analysis/            
-│   ├── behaviral/          
-│   ├── neural/          
-│    
-└── README.md          
-
-### How to Use
-
-- **Code and scripts** are designed to reproduce key analyses such as neural encoding, connectivity measures, and modeling.
-- **Data** files (when available) are for internal use; user-specific data should be preprocessed accordingly.
-- For questions, bug reports, or collaboration requests, please contact us at Hu Keyu <yc27383@connect.um.edu.mo> or`haiyanwu@um.edu.mo`.
-
+* 
+<img src="./6.4_sum.png">
 About 
 
 This repository contains code and analysis scripts for the study of neural mechanisms underlying flexible reward and information processing in human prefrontal circuits.
 
-License 
 
-此研究由 ANDlab完成，截图和数据（限非敏感部分）可用于学术交流与再研究。敬请注明出处。
 
 **Thank you for your interest!**
