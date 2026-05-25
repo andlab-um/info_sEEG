@@ -14,7 +14,7 @@ These findings identify a dynamic prefrontal mechanism linking ACC belief-state 
 - During the preceding learning phase, ACC population states were preferentially organized by the evolving information structure of the task, including midpoint belief reconfiguration and later, weaker alignment with residual uncertainty. 
 
 * 
-<img src="./6.4_sum.png">
+<img src="./6.4_sum.png" width="50%">
 About 
 
 This repository contains code and analysis scripts for the study of neural mechanisms underlying flexible reward and information processing in human prefrontal circuits.
