@@ -1,3 +1,0 @@
-table,rows,subjects,games,conditions,acc_features,vmpfc_features,belief_metrics,note
-reveal_features,594,1,99,equal=228;unequal=366,80,80,0,One-participant reveal-level neural feature table.
-normative_state_metrics,5166,10,99,equal=2442;unequal=2724,83,83,20,Full-analysis-style state metrics table included with the sample repository.
