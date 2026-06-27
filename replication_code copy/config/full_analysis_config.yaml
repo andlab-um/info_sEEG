@@ -1,0 +1,59 @@
+project:
+  name: info_seeg_full_analysis_reviewer_scripts
+
+paths:
+  behavioral_logs: code/sample_data/seeg_behav
+  behavioral_model_outputs: replication_code/outputs/full_analysis/behavior_model
+  behavioral_figure_inputs: code/sample_data/bhm_final_fix_beta_26/weighted
+  behavioral_param_inputs: code/sample_data/bhm_final_fix_beta_26
+  reveal_features: code/sample_data/reveal_neual_feature_table/reveal_level_neural_feature_table.csv
+  normative_state_metrics: code/sample_data/acc_normative_full_analysis/df_state_with_normative_metrics.csv
+  seeg_roi_main_acc: code/sample_data/seeg_roi_main/acc
+  seeg_roi_main_vmpfc: code/sample_data/seeg_roi_main/vmpfc
+  seeg_roi_baseline_acc: code/sample_data/seeg_roi_baseline/acc
+  seeg_roi_baseline_vmpfc: code/sample_data/seeg_roi_baseline/vmpfc
+  weighted_model_metrics: code/sample_data/bhm_final_fix_beta_26/weighted
+  outputs: replication_code/outputs/full_analysis
+
+analysis_parameters:
+  subjects: 6
+  behavioral_draws: 3000
+  behavioral_tune: 1500
+  behavioral_chains: 4
+  behavioral_cores: 4
+  n_pca_components: 3
+  center_mode: subject_centered
+  random_state: 42
+  decoding_permutations: 1000
+  bestdeck_random_state: 42
+  bestdeck_by_reveal_permutations: 1000
+  reveal3_permutations: 5000
+  tfr_permutations: 5000
+  plv_permutations: 5000
+  psi_permutations: 5000
+  rsa_permutations: 5000
+  rsa_bootstrap: 2000
+  min_trials_per_subject: 6
+  min_subjects_per_rsa_block: 1
+  early_reveals: 1, 2, 3
+  late_reveals: 4, 5, 6
+  decision_window_start_s: -0.6
+  decision_window_end_s: 0.1
+  plv_decision_tmin_s: -1.1
+  plv_decision_tmax_s: 0.15
+  psi_analysis_tmin_s: -1.4
+  psi_analysis_tmax_s: 0.2
+  psi_decision_tmin_s: -1.0
+  psi_decision_tmax_s: 0.1
+  psi_window_seconds: 0.30
+  psi_step_seconds: 0.02
+  theta_plv_fmin_hz: 4
+  theta_plv_fmax_hz: 8
+  psi_beta_fmin_hz: 13
+  psi_beta_fmax_hz: 30
+  psi_multitaper_bandwidth_hz: 4
+  bga_fmin_hz: 40
+  bga_fmax_hz: 150
+  tfr_frequency_step_hz: 5
+  tfr_baseline_start_s: -3.498
+  tfr_baseline_end_s: -3.002

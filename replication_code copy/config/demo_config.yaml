@@ -1,0 +1,34 @@
+project:
+  name: info_seeg_replication_demo
+  manuscript_main: info_seeg_main_260524.pdf
+  manuscript_supplement: info_seeg_sup_260524.pdf
+
+paths:
+  behavioral_logs: code/sample_data/seeg_behav
+  behavioral_metrics: code/sample_data/bhm_final_fix_beta_26/weighted/6_game_metrics.csv
+  subject_parameters: code/sample_data/bhm_final_fix_beta_26/6_subject_params.csv
+  reveal_features: code/sample_data/reveal_neual_feature_table/6_reveal_neural_features.csv
+  reveal_features_full_style: code/sample_data/reveal_neual_feature_table/reveal_level_neural_feature_table.csv
+  normative_state_metrics: code/sample_data/acc_normative_full_analysis/df_state_with_normative_metrics.csv
+  seeg_roi_main: code/sample_data/seeg_roi_main
+  seeg_roi_baseline: code/sample_data/seeg_roi_baseline
+  outputs: replication_code/outputs/demo
+
+demo:
+  participant_id: 6
+  mode: one_participant
+  run_heavy_neural_models: false
+  note: The public demo validates sample inputs and reproduces expected output structures only.
+
+analysis_parameters:
+  forced_sampling_trials: 6
+  decision_window_start_s: -0.6
+  decision_window_end_s: 0.1
+  beta_band_hz: 13, 30
+  theta_plv_fmin_hz: 4
+  theta_plv_fmax_hz: 8
+  bga_fmin_hz: 40
+  bga_fmax_hz: 150
+  psi_window_seconds: 0.30
+  psi_step_seconds: 0.02
+  manuscript_permutations: 5000

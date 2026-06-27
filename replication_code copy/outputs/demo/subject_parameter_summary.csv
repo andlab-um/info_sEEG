@@ -1,0 +1,5 @@
+parameter,mean,sd,hdi_3_percent,hdi_97_percent,r_hat
+alpha_subj,0.078,0.013,0.055,0.102,1.0
+gamma_subj,1.831,0.591,1.061,2.972,1.0
+omega_subj,0.816,0.39,0.307,1.534,1.0
+beta_subj,2.044,0.565,1.084,3.089,1.0
