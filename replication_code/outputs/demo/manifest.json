@@ -1,0 +1,29 @@
+{
+  "analysis_parameters": {
+    "beta_band_hz": "13, 30",
+    "bga_fmax_hz": "150",
+    "bga_fmin_hz": "40",
+    "decision_window_end_s": "0.1",
+    "decision_window_start_s": "-0.6",
+    "forced_sampling_trials": "6",
+    "manuscript_permutations": "5000",
+    "psi_step_seconds": "0.02",
+    "psi_window_seconds": "0.30",
+    "theta_plv_fmax_hz": "8",
+    "theta_plv_fmin_hz": "4"
+  },
+  "demo_name": "info_seeg_replication_demo",
+  "generated_files": [
+    "replication_code/outputs/demo/input_inventory.csv",
+    "replication_code/outputs/demo/behavior_summary.csv",
+    "replication_code/outputs/demo/subject_parameter_summary.csv",
+    "replication_code/outputs/demo/neural_feature_summary.csv",
+    "replication_code/outputs/demo/belief_reconfiguration_by_reveal.csv",
+    "replication_code/outputs/demo/rsa_input_phase_summary.csv"
+  ],
+  "output_dir": "replication_code/outputs/demo",
+  "platform": "macOS-15.7.7-arm64-arm-64bit",
+  "python": "3.9.6",
+  "scope_note": "This one-participant demo validates inputs and emits expected output structures. Full group-level inference requires the complete private cohort dataset.",
+  "timestamp_local": "2026-06-27T10:01:46"
+}

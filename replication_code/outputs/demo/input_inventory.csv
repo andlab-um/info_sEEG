@@ -1,0 +1,9 @@
+config_key,relative_path,exists,kind,file_count,bytes
+behavioral_logs,code/sample_data/seeg_behav,True,directory,2,1063245
+behavioral_metrics,code/sample_data/bhm_final_fix_beta_26/weighted/6_game_metrics.csv,True,file,1,35785
+subject_parameters,code/sample_data/bhm_final_fix_beta_26/6_subject_params.csv,True,file,1,321
+reveal_features,code/sample_data/reveal_neual_feature_table/6_reveal_neural_features.csv,True,file,1,1899560
+reveal_features_full_style,code/sample_data/reveal_neual_feature_table/reveal_level_neural_feature_table.csv,True,file,1,25476470
+normative_state_metrics,code/sample_data/acc_normative_full_analysis/df_state_with_normative_metrics.csv,True,file,1,21023865
+seeg_roi_main,code/sample_data/seeg_roi_main,True,directory,5,43675116
+seeg_roi_baseline,code/sample_data/seeg_roi_baseline,True,directory,4,35681124

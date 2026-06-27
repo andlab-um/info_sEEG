@@ -1,0 +1,8 @@
+metric,value,note
+games,100,Number of free-choice games in the sample model-derived table.
+mean_chosen_probability,0.870396,Mean gkRL probability assigned to the observed choice.
+mean_omega,0.825509,Mean information-weight parameter across sample games.
+mean_beta,2.043586,Mean inverse-temperature value in the sample game table.
+conflict_games,30,Games where argmax composite value differs from argmax reward.
+conflict_choice_matches_highest_value,21,Count of conflict games where the chosen deck has the highest composite value.
+conflict_choice_matches_highest_reward,7,Count of conflict games where the chosen deck has the highest reward estimate.
